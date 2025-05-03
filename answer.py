@@ -5,7 +5,7 @@ import difflib
 # 知识图谱连接参数
 uri = "bolt://localhost:7687"
 username = "neo4j"
-password = "zhj20031218"
+password = "yourpassword"
 
 class answer_from_robot():
     def __init__(self, IR, en_dict, right_name, art_li):
