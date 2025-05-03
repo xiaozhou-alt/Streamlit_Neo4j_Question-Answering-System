@@ -247,7 +247,7 @@ def main():
     
     # 测试Neo4j连接
     try:
-        test_graph = Graph("bolt://localhost:7687", auth=("neo4j", "zhj20031218"))
+        test_graph = Graph("bolt://localhost:7687", auth=("neo4j", "yourpassword"))
         test_graph.run("MATCH (n) RETURN n LIMIT 1")
         st.success("Neo4j连接成功！")
     except Exception as e:
