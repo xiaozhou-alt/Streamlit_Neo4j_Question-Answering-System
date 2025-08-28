@@ -103,3 +103,5 @@ cd data
 ![search1](./images/search1.png)
 
 ![search2](./images/search2.png)
+
+更多信息请关注我的博客CSDN：[基于streamlit+Neo4j构建的中国先进技术问答系统](https://blog.csdn.net/soejjdiwjssundo/article/details/147670028)
